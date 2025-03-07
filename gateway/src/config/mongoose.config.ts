@@ -1,4 +1,4 @@
 export const mongoConfig={
-    uri:'mongodb://localhost/helpMate'
+    uri:'mongodb://localhost:27017/helpMate'
 }
 
