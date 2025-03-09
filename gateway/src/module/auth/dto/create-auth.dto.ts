@@ -35,3 +35,15 @@ export class LoginDto  {
   @MinLength(8)
   password: string;
 }
+
+export class ResendOtpDto  {
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsEmail()
+  email: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  phone: string;
+}

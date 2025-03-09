@@ -5,9 +5,9 @@ import { HydratedDocument } from "mongoose";
 export class Otp {
     @Prop()
      code:string
-    @Prop({required:false,unique:true})
+    @Prop({required:false,unique:true, })
     phone:string
-    @Prop({required:false,unique:true})
+    @Prop({required:false,unique:true,  })
     email:string
     @Prop()
     expiresIn:Date
